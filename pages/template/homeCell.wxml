@@ -1,0 +1,7 @@
+<template name="homeCell">
+
+  <view class="homeCell">
+    <image class="avator" src="{{item.profile_image}}" mode="center"></image>
+    <text class="title">{{item.name}}</text>
+  </view>
+</template>

@@ -7,7 +7,14 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view>
+    <navigator url="../home/home">跳转到新页面</navigator>
+  </view>
+    <view>
+    <navigator url="../welcome/welcome">静态展示页面</navigator>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
 </view>

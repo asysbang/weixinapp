@@ -1,0 +1,23 @@
+.homeCell{
+  background-color: white;
+  margin: 12rpx 12rpx 10rpx 12rpx;
+  border: 1rpx solid #dddcdc;
+}
+
+/*头像*/
+.avator{
+  display: inline-block;
+  vertical-align: middle;
+  width:36rpx;
+  height: 36rpx;
+  margin-left: 14rpx;
+  margin-top: 14rpx;
+  
+}
+
+/*标题*/
+.title{
+  display: block;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/welcome/welcome.wxml-->
+<swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
+
+  <swiper-item class="banner">
+    <image src='../../images/welcome/banner_001.jpg'></image>
+    <text>aaaa</text>
+  </swiper-item>
+  <swiper-item class="banner">
+    <image src='../../images/welcome/banner_002.jpg'></image>
+    <text>bbb</text>
+  </swiper-item>
+  <swiper-item class="banner">
+    <image src='../../images/welcome/banner_003.jpg'></image>
+    <text>ccc</text>
+  </swiper-item>
+</swiper>
+
+<!-- 跑马灯效果  -->
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+      <image src="{{adUrl}}" class='ad-image' />{{text}}
+    </view>
+  </view>
+</view>

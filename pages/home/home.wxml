@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<import src="../template/homeCell.wxml" />
+<text>####pages/home/home.wxml###</text>
+
+      <block wx:for="{{dataList}}" wx:for-item="item">
+      <navigator url="../detail/detail?id={{item.id}}">
+          <template is="homeCell" data="{{item}}" />
+          </navigator>
+      </block>
