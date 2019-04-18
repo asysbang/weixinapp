@@ -1,18 +1,31 @@
 // pages/welcome/show.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    showId:null,
+    showData:null,
+    desc:null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let that = this;
+    var data = getApp().globalData.showDatas[options.id];
+    var descTem = getApp().globalData.desc[0];
+    that.setData({
+      showId: options.id,
+      showData:data,
+      desc:descTem
+    });
+    wx.setNavigationBarTitle({
+      title: data.name
+    })
   },
 
   /**

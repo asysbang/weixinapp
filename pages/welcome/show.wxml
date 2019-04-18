@@ -1,2 +1,15 @@
 <!--pages/welcome/show.wxml-->
-<text>pages/welcome/show.wxml</text>
+<view class='main'>
+  <view class='top-img'>
+    <image src='{{showData.img}}'></image>
+  </view>
+  <view class='cc'>
+    <text>{{desc.text1}}</text>
+  </view>
+
+  <view class='cc'>
+    <text>{{desc.text2}}</text>
+  </view>
+
+
+</view>

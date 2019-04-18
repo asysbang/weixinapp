@@ -1,1 +1,24 @@
 /* pages/welcome/show.wxss */
+
+.main {
+  padding: 0 20rpx;
+}
+
+.top-img {
+  margin:  30rpx 0 ;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  height: 70rpx;
+  font-size: 32rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+
+.cc {
+  text-indent: 44rpx;
+  font-size: 38rpx;
+  line-height: 70rpx;
+}

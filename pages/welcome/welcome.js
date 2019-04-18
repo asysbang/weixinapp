@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    text: '51淘甄貨,一个可以省钱的购物平台',
+    showDatas: getApp().globalData.showDatas,
+    imgUrls:getApp().globalData.mainImages,
+    text: '欢迎光临，花卉小店总有你喜欢的一朵花',
     marqueePace: 1, //滚动速度
     marqueeDistance: 0, //初始滚动距离
     size: 14,
@@ -18,7 +20,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    wx.setNavigationBarTitle({
+      title: '花卉小店'
+    })
   },
 
   /**
